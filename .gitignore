@@ -1,0 +1,24 @@
+# Environment variables - MUST NEVER BE COMMITTED (Paper requirement)
+.env
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Local runtime database & storage
+data/
+*.db
+*.sqlite3
+*.zip
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Virtual environments
+venv/
+env/
+.venv/
